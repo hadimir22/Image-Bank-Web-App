@@ -1,0 +1,17 @@
+#video {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+#video #overlay { 
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    min-height: 900px;
+    margin-bottom:50px;
+}
