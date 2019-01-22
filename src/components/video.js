@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import { Container, Grid, Icon } from 'semantic-ui-react'
-import VideoCover from 'react-video-cover';
+import { Grid, } from 'semantic-ui-react'
 import vid from '../components/vid.mp4'
-
 import './video.css'
+import SearchBar from './Search';
+import Logo from './Logo';
+import BottonChevron from './BottonChevron'
 
 class Video extends Component {
     render() {
@@ -18,7 +19,7 @@ class Video extends Component {
                             style={{
                                 objectFit: 'cover',
                                 width: '100%',
-                                height: '100%',
+                                height: '100vh',
                             }}
                             src={vid}
                             autoPlay
@@ -27,13 +28,16 @@ class Video extends Component {
                     </Grid.Column >
 
 
-                    <Grid.Column width={16} style={{ position: 'absolute', zIndez: '2', textAlign: 'center', paddingTop: '20px' }}>
+                    <Logo />
+
+                    <SearchBar />
 
 
-                        <Icon name='camera retro' size='large' />
-                        <strong><h2 style={{ fontSize: '2vw' }}>Image Bank</h2></strong>
+                    <BottonChevron />
 
-                    </Grid.Column>
+
+
+
 
                 </Grid>
 
