@@ -12,7 +12,7 @@ const insideStyles = {
     position: "absolute",
     top: "50%",
     left: "50%",
-    fontSize: "25px",
+    fontSize: "20px",
     textAlign: "center",
     color: "#6F1E51",
     transform: "translate(-50%,-50%)"

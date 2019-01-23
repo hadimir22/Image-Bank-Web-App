@@ -14,11 +14,15 @@
 }
 
 #foot1{
-    text-align: center;
-    padding-left: 60px;
+    text-align: center; 
+    padding-top: 10px;
 
 }
 
 #foot2{
     text-align: center;
     }
+ 
+    #foot3{
+        text-align: center;
+        }

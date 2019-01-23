@@ -15,7 +15,7 @@ class Video extends Component {
             <div>
 
                 <Grid >
-                    <Grid.Column width={16} >
+                    <Grid.Column width={16} style={{ padding: '0px' }}>
                         <video
                             style={{
                                 objectFit: 'cover',
