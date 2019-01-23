@@ -8,10 +8,9 @@ class BottonChevron extends Component {
         return (
 
             <Grid.Column width={16} style={{ position: 'absolute', zIndez: '2', textAlign: 'center', marginTop: '500px' }}>
-                <a href='#'>   <Icon.Group size='huge'>
-                    <Icon loading size='small' color='teal' name='circle notch' />
-                    <Icon name='angle down' color='teal' size='tiny' />
-                </Icon.Group>
+                <a href='#'>
+                    <Icon circular inverted name='angle down' size='large' color='teal' />
+
                 </a>
             </Grid.Column>
 

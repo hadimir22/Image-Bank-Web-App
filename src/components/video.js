@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { Grid, } from 'semantic-ui-react'
 import vid from '../components/vid.mp4'
-import './video.css'
 import SearchBar from './Search';
 import Logo from './Logo';
 import BottonChevron from './BottonChevron'
+import './video.css'
+import Type from './type';
 
 class Video extends Component {
     render() {
@@ -29,6 +30,8 @@ class Video extends Component {
 
 
                     <Logo />
+
+                    <Type />
 
                     <SearchBar />
 

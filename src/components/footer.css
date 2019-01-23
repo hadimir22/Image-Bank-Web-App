@@ -1,0 +1,24 @@
+#bigfoot {
+    background-color: #2ed573;
+    text-align: center;
+    min-height: 250px;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+#bigfoot a {
+    color: black;
+}
+
+#bigfoot a:hover {
+    color: brown;
+}
+
+#foot1{
+    text-align: center;
+    padding-left: 60px;
+
+}
+
+#foot2{
+    text-align: center;
+    }

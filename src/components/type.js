@@ -1,0 +1,37 @@
+import React, { Component } from 'react';
+import { Grid, Icon, } from 'semantic-ui-react'
+import Typing from 'react-typing-animation';
+
+class Type extends Component {
+    render() {
+
+
+        return (
+
+
+            <Grid.Row style={{ position: 'absolute', zIndez: '2', textAlign: 'center', paddingTop: '250px' }}>
+
+                <Grid.Column width={16}  >
+
+                    <Typing>
+                        <span style={{
+                            color: 'white',
+                            paddingLeft: '0px',
+                            fontSize: '30px'
+                        }}> Search Billion images</span>
+                    </Typing>
+                </Grid.Column>
+
+
+            </Grid.Row>
+
+
+
+
+
+        );
+    }
+}
+
+
+export default Type;

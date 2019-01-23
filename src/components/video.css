@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins');
- a , h2{
+ a h2{
      color: black;
-     text-decoration: none;
-     font-family: 'Poppins', sans-serif;
+     text-decoration: none; 
      transition: all 1s;
  }
 
- a,h2:hover {
+ a h2:hover {
      transform: scale(1.5);
      color: white;
  }
