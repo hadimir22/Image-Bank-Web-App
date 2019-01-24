@@ -1,9 +1,12 @@
 #bigfoot {
     background-color: #2ed573;
     text-align: center;
-    min-height: 250px;
+    min-height: 300px;
     margin-top: 50px;
     padding-top: 20px;
+    padding-bottom: 80px;
+    
+    
 }
 #bigfoot a {
     color: black;

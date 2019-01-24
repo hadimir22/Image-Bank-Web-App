@@ -1,0 +1,21 @@
+#col1, #col3 {
+    background-color: transparent;
+    min-height: 50px;
+}
+#col2 {
+
+    background-color: #22a6b3;
+    min-height: 80px;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding-top: 25px;
+}
+
+#menu {
+    border-color: transparent;
+    background-color: transparent;
+
+}
+
+ 

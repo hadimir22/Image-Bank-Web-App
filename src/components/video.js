@@ -14,8 +14,9 @@ class Video extends Component {
         return (
             <div>
 
-                <Grid >
-                    <Grid.Column width={16} style={{ padding: '0px' }}>
+                <Grid columns={1}>
+
+                    <Grid.Column mobile={16} tablet={16} computer={16} style={{ padding: '0px' }}>
                         <video
                             style={{
                                 objectFit: 'cover',

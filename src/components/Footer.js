@@ -1,6 +1,5 @@
 import React from 'react'
-import faker from 'faker'
-import { Grid, Icon, Header } from 'semantic-ui-react'
+import { Grid, Icon, Header, Button } from 'semantic-ui-react'
 import './footer.css'
 
 
@@ -30,11 +29,10 @@ const Footer = () => (
         <Grid.Column id="foot2" mobile={16} tablet={8} computer={5} >
 
             <p>Connect with us</p>
-
-            <a href='#'> <Icon name='facebook square' size='big' /></a>
-            <a href='#'> <Icon name='instagram' size='big' /></a>
-            <a href='#'> <Icon name='linkedin alternate' size='big' /></a>
-            <a href='#'> <Icon name='twitter square' size='big' /></a>
+            <Button circular color='facebook' icon='facebook' />
+            <Button circular color='twitter' icon='twitter' />
+            <Button circular color='linkedin' icon='linkedin' />
+            <Button circular color='google plus' icon='google plus' />
         </Grid.Column >
 
     </Grid>

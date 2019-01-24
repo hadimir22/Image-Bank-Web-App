@@ -6,6 +6,7 @@ import DevCard from './components/Card';
 import Footer from './components/Footer';
 import './app.css'
 import ParallaxArea from './components/Parallax';
+import Navbar from './components/NavBar';
 
 
 class App extends Component {
@@ -32,6 +33,7 @@ class App extends Component {
         </div>
 
         <Footer />
+        <Navbar />
 
       </div>
     );

@@ -11,7 +11,7 @@ const DevCard = (props) => (
         <Card style={{ textAlign: 'center' }}>
             <Reveal animated='move right'>
                 <Reveal.Content visible>
-                    <Image src={faker.image.nature()} />
+                    <Image src={faker.image.image()} />
                 </Reveal.Content>
                 <Reveal.Content hidden>
                     <Image src={faker.image.cats()} />
@@ -20,7 +20,7 @@ const DevCard = (props) => (
             <Card.Content>
                 <Card.Header>{props.name}</Card.Header>
                 <Card.Meta>
-                    <span className='date'>{faker.lorem.slug()}</span>
+                    <span className='date'>{faker.hacker.ingverb()}</span>
                 </Card.Meta>
                 <Card.Description>-{props.discription}-</Card.Description>
             </Card.Content>
