@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Icon, } from 'semantic-ui-react'
+import { Grid, } from 'semantic-ui-react'
 import Typing from 'react-typing-animation';
 
 class Type extends Component {
@@ -18,7 +18,7 @@ class Type extends Component {
                             color: 'white',
                             paddingLeft: '0px',
                             fontSize: '30px'
-                        }}> Search Billion images</span>
+                        }}> Search Billions of images</span>
                     </Typing>
                 </Grid.Column>
 

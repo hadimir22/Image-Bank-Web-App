@@ -1,10 +1,12 @@
 import React from 'react'
-import { Grid, Icon, Button, Menu, } from 'semantic-ui-react'
+import { Grid, Button, Menu, } from 'semantic-ui-react'
+import { Link } from 'react-router-dom';
 import './navbar.css'
 
 
 
 const Navbar = (props) => (
+
     <div>
 
 
@@ -15,10 +17,10 @@ const Navbar = (props) => (
                     <Grid.Column id="col1" only='computer tablet' tablet={4} computer={4}>       </Grid.Column>
 
                     <Grid.Column id="col2" mobile={16} tablet={8} computer={8}>
-                        <Button circular color="pink" icon='home' />
-                        <Button circular color="pink" icon='world' />
-                        <Button circular color="pink" icon='phone' />
-                        <Button circular color="pink" icon='heart' />
+                        <Link to='/'>  <Button circular color="black" icon='home' /> </Link>
+                        <Link to='/results'> <Button circular color="black" icon='world' /> </Link>
+                        <Button circular color="black" icon='phone' />
+                        <Button circular color="black" icon='heart' />
 
 
 

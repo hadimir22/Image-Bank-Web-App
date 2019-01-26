@@ -8,6 +8,7 @@ import './video.css'
 import Type from './type';
 
 class Video extends Component {
+
     render() {
 
 
@@ -22,6 +23,8 @@ class Video extends Component {
                                 objectFit: 'cover',
                                 width: '100%',
                                 height: '100vh',
+                                overflow: 'hidden'
+
                             }}
                             src={vid}
                             autoPlay
@@ -34,7 +37,7 @@ class Video extends Component {
 
                     <Type />
 
-                    <SearchBar />
+                    <SearchBar passedFunction={this.handleData} />
 
 
                     <BottonChevron />

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Divider } from 'semantic-ui-react'
+import { Container } from 'semantic-ui-react'
 import Typing from 'react-typing-animation';
 import './infotxt.css'
 import { Parallax } from "react-parallax";

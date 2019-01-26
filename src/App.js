@@ -1,41 +1,55 @@
 import React, { Component } from 'react';
-import { Grid, Container, GridColumn, Header, Icon, } from 'semantic-ui-react'
+import { Grid, Header, Icon, } from 'semantic-ui-react'
+import { Route } from 'react-router-dom'
 import Video from './components/video';
 import Infotext from './components/Infotxt';
 import DevCard from './components/Card';
 import Footer from './components/Footer';
-import './app.css'
 import ParallaxArea from './components/Parallax';
 import Navbar from './components/NavBar';
+import Results from './components/Results';
+import './app.css'
 
 
 class App extends Component {
+
+
   render() {
     return (
-      <div className="App">
-        <Video />
-        <Infotext />
+      <div>
+        <Route exact path="/" render={() =>
+          (
+            <div className="App">
+              <Video />
+              <Infotext />
 
-        <ParallaxArea />
+              <ParallaxArea />
 
-        <div id='team'>
-          <Header color='black' as='h2' icon textAlign='center'>
-            <Icon name='users' circular />
-            <Header.Content>Our Team</Header.Content>
-          </Header>
+              <div id='team'>
+                <Header color='black' as='h2' icon textAlign='center'>
+                  <Icon name='users' circular />
+                  <Header.Content>Our Team</Header.Content>
+                </Header>
 
-          <Grid centered container columns={3}>
-            <DevCard name='Hadi' discription='Full stack developer' />
-            <DevCard name='Tony Stark' discription='Cloud Admin' />
-            <DevCard name='Jon snow' discription='Security Admin' />
-            <DevCard name='Triyon' discription='Technical Advisor' />
-          </Grid>
-        </div>
+                <Grid centered container columns={3}>
+                  <DevCard name='Hadi' discription='Full stack developer' />
+                  <DevCard name='Tony Stark' discription='Cloud Admin' />
+                  <DevCard name='Jon snow' discription='Security Admin' />
+                  <DevCard name='Tyrion ' discription='Technical Advisor' />
+                </Grid>
+              </div>
 
-        <Footer />
-        <Navbar />
+              <Footer />
+              <Navbar />
+
+            </div>
+          )} />
+
+
+        <Route path="/results/:query" component={Results} />
 
       </div>
+
     );
   }
 }

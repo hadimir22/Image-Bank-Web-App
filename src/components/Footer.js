@@ -19,10 +19,10 @@ const Footer = () => (
 
         <Grid.Column id="foot3" mobile={16} tablet={8} computer={6} >
 
-            <p>    <a href='#'>Contact us</a>   </p>
-            <p>    <a href='#'>Careers</a></p>
-            <p>    <a href='#'>Privacy policy</a></p>
-            <p>    <a href='#'>Feedback</a></p>
+            <p>    <a href='./'>Contact us</a>   </p>
+            <p>    <a href='./'>Careers</a></p>
+            <p>    <a href='./'>Privacy policy</a></p>
+            <p>    <a href='./'>Feedback</a></p>
 
         </Grid.Column >
 
