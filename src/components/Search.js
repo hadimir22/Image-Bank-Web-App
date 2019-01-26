@@ -40,8 +40,8 @@ class SearchBar extends Component {
                     <form onSubmit={this.formSubmit} >
 
                         <Input fluid size='large' onChange={this.onInputChange} value={this.state.term} icon={<Icon name='search' inverted circular link />} placeholder='Cats, Nature ....' />
-                    </form>
 
+                    </form>
                     {this.state.redirect && (
                         <Redirect to={{
                             pathname: `/results/:${this.state.term}`

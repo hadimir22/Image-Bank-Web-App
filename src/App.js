@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import ParallaxArea from './components/Parallax';
 import Navbar from './components/NavBar';
 import Results from './components/Results';
+import Contact from './components/Contact';
 import './app.css'
 
 
@@ -47,6 +48,8 @@ class App extends Component {
 
 
         <Route path="/results/:query" component={Results} />
+
+        <Route path="/contact" component={Contact} />
 
       </div>
 

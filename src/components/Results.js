@@ -14,7 +14,10 @@ class Results extends Component {
     constructor(props) {
         super(props);
 
-        this.state = { images: [], dimstate: true }
+        this.state = {
+            images: [],
+            dimstate: true
+        }
 
     }
 
@@ -34,8 +37,6 @@ class Results extends Component {
         this.setState({ images: response.data.results, dimstate: false })
 
     }
-
-
 
 
 

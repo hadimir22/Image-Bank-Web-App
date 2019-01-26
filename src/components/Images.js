@@ -1,6 +1,6 @@
 import React from 'react'
-import { Grid, Image, Reveal } from 'semantic-ui-react'
-
+import { Grid, Image, Icon, Label, Reveal, Button, Header } from 'semantic-ui-react'
+import faker from 'faker'
 
 const Images = (props) => {
 
@@ -14,8 +14,22 @@ const Images = (props) => {
                         <Image src={image.urls.regular} key={image.id} size='big' rounded />
                     </Reveal.Content>
                     <Reveal.Content hidden>
+                        <div style={{ textAlign: 'center', paddingTop: '50px' }}>
+                            <Header as='h2' inverted>
+                                Download
+                             </Header>
 
-                        <Image src={image.urls.regular} key={image.id} size='big' rounded />
+                            <Button as='div' labelPosition='right'>
+                                <Button color='red'>
+                                    <a href={image.urls.regular} target='_blank' download> <Icon name='download' />
+                                        download now</a>
+                                </Button>
+                                <Label as='a' basic color='red' pointing='left'>
+                                    {faker.random.number()} downloads
+                                </Label>
+                            </Button>
+                        </div>
+
                     </Reveal.Content>
                 </Reveal>
 

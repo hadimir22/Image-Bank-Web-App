@@ -9,13 +9,13 @@ class Type extends Component {
         return (
 
 
-            <Grid.Row style={{ position: 'absolute', zIndez: '2', textAlign: 'center', paddingTop: '250px' }}>
+            <Grid.Row style={{ position: 'absolute', zIndez: '2', textAlign: 'center', paddingTop: '250px', }}>
 
                 <Grid.Column width={16}  >
 
                     <Typing>
                         <span style={{
-                            color: 'white',
+                            color: '#1e272e',
                             paddingLeft: '0px',
                             fontSize: '30px'
                         }}> Search Billions of images</span>
