@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Divider, Icon } from 'semantic-ui-react'
+import { Container, Icon } from 'semantic-ui-react'
 import faker from 'faker'
 import Navbar from './NavBar';
 

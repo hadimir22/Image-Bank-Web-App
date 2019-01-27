@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import { Grid, Loader, Divider, Header, Segment, Dimmer } from 'semantic-ui-react'
+import { Grid, Loader, Divider, Header } from 'semantic-ui-react'
 import Navbar from './NavBar';
-import faker from 'faker'
 import axios from 'axios';
 import Logo from './Logo';
 import './results.css'
 import Images from './Images';
 import ImagePlaceholder from './ImagePlaceholder';
-import Footer from './Footer';
 
 
 class Results extends Component {
@@ -73,7 +71,7 @@ class Results extends Component {
 
 
 
-                {this.state.images.length == 0 &&
+                {this.state.images.length === 0 &&
                     <div id="main">
                         <Grid container >
                             <ImagePlaceholder />

@@ -10,6 +10,7 @@ import Navbar from './components/NavBar';
 import Results from './components/Results';
 import Contact from './components/Contact';
 import './app.css'
+import Additional from './components/Additional';
 
 
 class App extends Component {
@@ -23,6 +24,13 @@ class App extends Component {
             <div className="App">
               <Video />
               <Infotext />
+
+              <Grid centered container columns={3}>
+                <Additional icon='globe' item='worldwide impact' discript='The world gives testimonial of our service' />
+                <Additional icon='compass' item='access anywhere' discript='You can access our site anywhere from any device' />
+                <Additional icon='code' item='awesome code' discript='code is written beautifully and is up to date' />
+              </Grid>
+
 
               <ParallaxArea />
 
