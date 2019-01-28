@@ -15,7 +15,7 @@ class Type extends Component {
 
                     <Typing>
                         <span style={{
-                            color: '#1e272e',
+                            color: 'white',
                             paddingLeft: '0px',
                             fontSize: '30px'
                         }}> Search Billions of images</span>

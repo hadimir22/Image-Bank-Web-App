@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, } from 'semantic-ui-react'
-import vid from '../components/vid.mp4'
+import { Grid, Image } from 'semantic-ui-react'
+import vid from './i1.jpg'
 import SearchBar from './Search';
 import Logo from './Logo';
 import BottonChevron from './BottonChevron'
@@ -18,7 +18,7 @@ class Video extends Component {
                 <Grid columns={1}>
 
                     <Grid.Column mobile={16} tablet={16} computer={16} style={{ padding: '0px' }}>
-                        <video
+                        <Image
                             style={{
                                 objectFit: 'cover',
                                 width: '100%',
@@ -27,8 +27,7 @@ class Video extends Component {
 
                             }}
                             src={vid}
-                            autoPlay
-                            loop
+
                         />
                     </Grid.Column >
 
