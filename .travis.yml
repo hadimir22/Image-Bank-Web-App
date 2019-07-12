@@ -1,25 +1,20 @@
 language: node_js
+
 node_js:
-  
-- "stable"
-cache:
-  directories:
-  
-- node_modules
+  - 8.16.0
+
+cache: npm
+
+install:
+  - npm ci
+
 script:
-  
-- npm test
+  - npm test
   - npm run build
+
 deploy:
-  provider: 
-pages
-  
-skip_cleanup: true
-  
-github_token: $github_token
-  
-local_dir: build
-  
-on:
-    branch: 
-master
+  provider: pages
+  skip_cleanup: true
+  github_token: $github_token
+  on:
+    branch: master
