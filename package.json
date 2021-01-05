@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://hadimir22.github.io/Image-Bank/",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "faker": "^4.1.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
